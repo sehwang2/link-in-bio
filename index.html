@@ -1,2 +1,109 @@
-<h1> This is my homepage</h1>
-<h2> My link in bio </h2>
+<!Doctype html,head,body>
+<head>
+  <meta charset = "UTF-8">
+  <title>  Seong Yoon's links </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+</head>
+<style> 
+  body {
+    min-height:100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: url('https://mayflowerwallpaper.com/cdn/shop/products/sheets-fj100216-185264.jpg?v=1683043927');
+    background-size: over;
+    background-position: center;
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-size:24px;
+    font-weight:900;
+    margin: 10px;
+    background-color: black;
+    color: black;
+  }
+  .headshot-image {
+  width: 200px;
+  height:200px;
+  object-fit: cover;
+  border-radius:128px;
+  }
+
+  .logo-image {
+  width: 48px;
+  height:auto;
+  object-fit: cover;
+  }
+  .social-icons-rows {
+  margin-bottom: 30px;
+  display:flex;
+  justify-content:space-around;
+  }
+  .main-container {
+    max-width:640px;
+    margin: auto;
+  }
+  .name-row {
+    margin-top: 10px;
+    margin-bottom: 3px;
+    text-align: center;
+    font-family:"DM Sans";
+    font-size:50px;
+    font-weight:900;
+  }
+  .item {
+    margin-bottom:20px;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    padding: 10px;
+    gap:10px;
+    border-radius: 50px
+  }
+  .item img {
+      width: 50px;
+      height: 50px;
+      object-fit: contain;
+      border-radius: 20px;
+      justify-content: space-around;
+  }
+  .item a {
+    color: white;
+    font-size: 24px;
+    flex-grow:1;
+    text-decoration: none;
+  }
+</style>
+<body>
+  <div class = "main-container"
+    <div class = "image-row"> 
+     <img class = "headshot-image" img src="headshot.jpeg" alt = "My Picture">
+  </div>
+  <div class = "name-row">
+      Seongeun H. Yoon
+  </div>
+  <div class = "social-icons-rows">
+    <a href="https://gitHub.com/sehwang2" target = "_blank">
+      <img class = "logo-image"  img src = "https://github.githubassets.com/assets/GitHub-Logo-ee398b662d42.png" alt="Github">
+    </a>
+    <a href="https://www.linkedin.com/in/seong-yoon/" target = "_blank">
+      <img class = "logo-image" img src= "https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Logo.svg.original.svg" alt="LinkedIn">
+    </a>
+  </div>
+  <div class = "links-row">
+    <div class = "item">
+      <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8_VGjFJmE2NHqbuxYMmR0YVqDU0rLTwq6ww&s">
+      <a target = "_blank" href = "https://www.chicagobooth.edu/" > 
+      MBA Candidate at The Univeristy of Chicago School of Business
+      </a>
+    </div> 
+    <div class = "item">
+      <img src = "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bd/4d/3b/bd4d3bad-8dff-4ad4-ed59-90f1ef305058/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/460x0w.webp"> 
+      <a target ="_blank" href="https://www.mccombs.utexas.edu/"> 
+        BBA and MPA at The Univeristy of Texas at Austin 
+      </a>
+    </div>  
+
+  </div>
+</body>
